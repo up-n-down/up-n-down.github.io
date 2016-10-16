@@ -9,7 +9,7 @@ body {
 .logo {
   display: block;
   position: relative;
-  width: 100%;
+  width: 256px;
   margin-top: 50px;
 }
 
@@ -17,25 +17,26 @@ body {
   width: 100%;
   display: block;
   position: relative;
-  margin-top: 50px;
+  margin-top: 300px;
 }
 
 .content p {
   font-size: 32px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 .footer {
-  width: 100%;
   display: block;
-  position: relative;
+  position: absolute;
   margin-top: 50px;
   margin-bottom: 50px;
+  bottom: 0px;
+  right: 20%;
   visibility: hidden;
 }
 
 .footer p {
   font-size: 16px;
-  text-align: center;
+  text-align: right;
 }
