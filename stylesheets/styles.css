@@ -28,15 +28,25 @@ body {
 
 .footer {
   display: block;
-  position: absolute;
-  margin-top: 50px;
+  position: relative;
+  margin-top: 100px;
   margin-bottom: 50px;
-  bottom: 0px;
-  right: 20%;
-  visibility: hidden;
 }
 
 .footer p {
   font-size: 16px;
   text-align: right;
+}
+
+.footer a.twitter {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/twitter-black.png);
+  background-size: cover;
+}
+
+.footer a.twitter:hover {
+  background: url(../images/twitter-white.png) repeat 0 0;
+  background-size: cover;
 }
